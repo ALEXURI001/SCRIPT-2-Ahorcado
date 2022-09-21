@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ahorcado</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo"><img src="imagenes/logo-alura.png" alt="Logo-Alura"></h1>
+    </header>
+    <main>
+        <textarea class= "palabra" cols="40" rows="6">Ingrese una palabra</textarea>
+      
+        <div class="botonesNew">
+            <div class="advertencia">
+                <img src="imagenes/exclamacion.png" alt="signo-Exclamacion">
+                <p>Máx. de 8 letras</p>
+            </div>
+            <button class="guardar" onclick="btnGUardar()">Guardar y empezar</button>
+            <button class="cancelar" onclick="btnCancelar()">Cancelar</button>
+        </div>
+    </main>
+   
+</body>
+</html>

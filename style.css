@@ -1,0 +1,82 @@
+.logo{
+    position: relative;
+    margin: 40px 60px;
+}
+
+
+.iniciar{
+    width: 240px;
+    padding: 29px;
+    margin-bottom: 3em;
+    background: darkblue;
+    color: white;
+    border-radius: 15px;
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    
+}
+
+.agregar-palabra{
+    width: 220px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    font-weight: bold;
+    border-radius: 15px;
+    display: block;
+    margin: 0px auto;
+}
+
+/*pagina new-word */
+
+
+.palabra{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid darkblue;
+   display: block;
+}
+
+.advertencia{
+    font-size: 14px;
+    font-family:sans-serif;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-bottom: 10px;
+
+}
+
+.advertencia p{
+    display: inline-block;
+}
+.botonesNew{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.guardar{
+    width: 220px;
+    padding: 18px;
+    background: darkblue;
+    color: white;
+    border-radius:15px;
+}
+
+.cancelar{
+    width: 220px;
+    padding: 18px;
+    background: transparents;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    color: darkblue;
+}
