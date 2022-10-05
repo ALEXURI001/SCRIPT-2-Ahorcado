@@ -4,7 +4,7 @@
 }
 
 
-.iniciar{
+#iniciar{
     width: 240px;
     padding: 29px;
     margin-bottom: 3em;
@@ -17,9 +17,10 @@
     margin-right: auto;
     font-weight: bold;
     
+    
 }
 
-.agregar-palabra{
+#agregar-palabra{
     width: 220px;
     padding: 20px;
     background: transparent;
@@ -29,6 +30,13 @@
     border-radius: 15px;
     display: block;
     margin: 0px auto;
+}
+
+canvas{
+    background-color: #0A3871;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /*pagina new-word */

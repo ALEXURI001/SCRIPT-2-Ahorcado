@@ -13,10 +13,28 @@
             <h1 class="logo"><img src="imagenes/logo-alura.png" alt="Logo-Alura"></h1>
         </header>
         <main>
+
+            <!--BOTONES-->
+
             <div class="botones">
-                <button class="iniciar" onclick="btnIniciar()">Iniciar juego</button>
-                <button class="agregar-palabra" onclick="btnAgregarPalabra()">Agregar nueva palabra</button>
+                <button id="iniciar" onclick="btnIniciar()">Iniciar juego</button>
+                <button id="agregar-palabra" onclick="btnAgregarPalabra()">Agregar nueva palabra</button>
             </div>
+
+            <!--CANVAS-->
+
+            <div id="aparece-ahorcado">
+                <canvas id="forca" width="1200" height="860"></canvas>
+
+                <div class="subrayado">
+                </div>
+                
+            </div>
+
         </main>
+
+        <script src="horca.js"></script>
+        <script src="canva.js"></script>
+
     </body>
 </html>
